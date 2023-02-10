@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  
+    .container{
+      @apply p-4 lg:max-w-6xl mx-auto
+    }
+
+    .product-title{
+      @apply text-[12px] font-semibold md:text-[14px] lg:text-[18px]
+    }
+
+    .price-text{
+      @apply text-[12px] font-semibold md:text-[12px] lg:text-[16px]
+    }
+
+    .button-primary{
+      @apply px-2 py-1 rounded-md bg-gray-800 text-white hover:bg-gray-700
+    }
+
+    .button-secundary{
+      @apply px-2 py-1 rounded-md bg-white text-gray-800 border border-gray-800 hover:bg-gray-700 hover:text-white hover:border-0
+    }
+  }
